@@ -135,7 +135,6 @@ main>section:nth-of-type(2) .image img {
     margin-left:30px;
 }
 
-
 footer {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -149,3 +148,13 @@ footer h3 {
     padding: 10px;
     line-height: 30px;
 }
+
+
+/**responsive**/
+
+@media screen and (max-width: 1000px) {
+    header nav {
+        right: 50%;
+        transform: translateX(50%);
+    }
+  }
